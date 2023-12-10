@@ -1,11 +1,11 @@
 // javascript functions for assignment 5
 function makeBigger() {
-    var textArea = document.getElementById("userText");
+    var textArea = document.getElementById("user_text");
     textArea.style.fontSize = "24pt";
 }
 
 function applyStyles() {
-    var textArea = document.getElementById("userText");
+    var textArea = document.getElementById("user_text");
     var fancyRadio = document.getElementById("fancy");
     var boringRadio = document.getElementById("boring");
 
@@ -25,7 +25,7 @@ function applyStyles() {
 }
 
 function mooText() {
-    var textArea = document.getElementById("userText");
+    var textArea = document.getElementById("user_text");
     textArea.value = textArea.value.toUpperCase();
 
     var sentences = textArea.value.split(". ");
