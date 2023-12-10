@@ -4,20 +4,20 @@
   window.addEventListener("load", init);
 
   function init() {
-    const encryptButton = document.getElementById('encrypt-it');
+    const encryptButton = document.getElementById('encrypt_it');
     const resetButton = document.getElementById('reset');
     encryptButton.addEventListener('click', handleClick);
     resetButton.addEventListener('click', handleReset);
   }
 
   function handleClick() {
-    const inputText = document.getElementById('input-text').value;
+    const inputText = document.getElementById('input_text').value;
     const encryptedText = shiftCipher(inputText); // Encrypt the input text
     displayResult(encryptedText); // Display the encrypted text
   }
 
   function handleReset() {
-    const inputText = document.getElementById('input-text');
+    const inputText = document.getElementById('input_text');
     inputText.value = '';
     displayResult(''); // Clear the displayed result on reset
   }
