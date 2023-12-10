@@ -1,0 +1,38 @@
+<!--CSC 193 Assignment 5 --> 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fancify Shamcify</title>
+    <style>
+        fieldset {
+            border: 1px solid #000;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Fancify my Text</h1>
+    <!-- Text field -->
+    <fieldset>
+        <legend>Text</legend>
+        <textarea rows="4" cols="30" id="userText"></textarea>
+    </fieldset>
+
+    <!-- Fancify controls -->
+    <fieldset>
+        <legend>Fancify</legend>
+        <button onclick="makeBigger()">Bigger!</button><br><br>
+        <input type="radio" id="fancy" name="fancyType" value="fancy" onchange="applyStyles()">
+        <label for="fancy">FancyShmancy</label><br>
+        <input type="radio" id="boring" name="fancyType" value="boring" onchange="applyStyles()">
+        <label for="boring">BoringBetty</label><br>
+        <button onclick="mooText()">Moo</button><br><br>
+    </fieldset>
+
+    <!-- Script file inclusion -->
+    <script src="fancifymytext.js"></script>
+</body>
+</html>
