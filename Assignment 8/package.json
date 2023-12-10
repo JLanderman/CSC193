@@ -1,0 +1,11 @@
+{
+  "name": "assignment-8",
+  "version": "1.0.0",
+  "description": "CSC 193 Assignment 8: Introduction to Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jared Landerman",
+  "license": "ISC"
+}
